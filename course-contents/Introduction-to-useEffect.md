@@ -2,8 +2,8 @@
 
 ## useEffect 알아보기
 
-- `useEffect`는 class component에서의 `componentWillUnmount`, `componentDidMount`, `componentWillUpdate` 세 가지의 life cycle에서 동작하는 hook이다.
-  초기에 `componentDidMount`에 한번 실행되고, 이후에 두 번째 인자 값에 따라서 `componentWillUpdate`에서도 실행된다.
+- `useEffect`는 class component에서의 `componentWillUnmount`, `componentDidMount`, `componentDidUpdate` 세 가지의 life cycle에서 동작하는 hook이다.
+  초기에 `componentDidMount`에 한번 실행되고, 이후에 두 번째 인자 값에 따라서 `componentDidUpdate`에서도 실행된다.
 
 - 첫번째 인자로는 콜백 함수를 받는다. 이 콜백 함수는 두 번째 인자로 주어진 배열 안의 state값이 변하게 되면 실행된다.
 
